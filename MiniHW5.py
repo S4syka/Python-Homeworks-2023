@@ -21,10 +21,11 @@ def convert_to_string (col):
             for j in range(len(col)):
                 val = val + col[j][i]
                 if(j == len(col) - 1):
-                    val = val + "\n"
+                    val = val + "\\n"
                 else:
                     val = val + ";"
     return val 
 
+print(sort_csv_columns(input()))
 #myjinxin2015;raulbc777;smile67;Dentzil;SteffenVogel_79\n17945;10091;10088;3907;10132\n2;12;13;48;11
 
